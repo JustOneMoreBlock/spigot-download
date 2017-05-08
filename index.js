@@ -61,7 +61,8 @@ if (argv.id) {
       })
     },
     (_, { title, href }) => {
-      spinner.succeed('Beginning download')
+      spinner.text = 'Beginning download'
+      spinner.start()
 
       cloudscraper.request({
         method: 'GET',
