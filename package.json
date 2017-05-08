@@ -1,0 +1,29 @@
+{
+  "name": "spigot-download",
+  "description": "download spigot plugins easily",
+  "version": "0.1.0",
+  "homepage": "https://github.com/seanc/spigot-download",
+  "author": "Sean Wilson (https://imsean.me)",
+  "repository": "seanc/spigot-download",
+  "bugs": {
+    "url": "https://github.com/seanc/spigot-download/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "bin": {
+    "spigot-download": "./index.js"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "cloudscraper": "^1.4.1",
+    "minimist": "^1.2.0",
+    "ora": "^1.2.0",
+    "prettysize": "^0.1.0",
+    "step": "seanc/step"
+  }
+}
